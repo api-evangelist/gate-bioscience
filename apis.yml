@@ -1,7 +1,18 @@
 aid: gate-bioscience
 name: Gate Bioscience
-description: Gate Bioscience is a company surfaced as a portfolio company of a16z, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gate Bioscience is a preclinical biotechnology company founded in 2021 and headquartered in
+  Brisbane, California, creating a new class of small-molecule medicines called Molecular Gates.
+  Molecular Gates selectively eliminate disease-causing extracellular proteins at their origin
+  inside the cell by binding the secretory translocon, the channel through which proteins exit the
+  cell, so targeted proteins are degraded rather than secreted. The company's proprietary Molecular
+  Gate Discovery Platform pairs a privileged library of molecules with bespoke secretion-focused
+  assays and deep secretory-pathway biology to pursue more than 1,000 diseases linked to
+  extracellular proteins. Gate Bioscience is backed by Andreessen Horowitz (a16z) Bio + Health, GV,
+  Versant Ventures, ARCH Venture Partners, Forbion and Eli Lilly, and has raised roughly $134M
+  across Series A and an oversubscribed $65M Series B. As a therapeutics company it publishes no
+  public developer API, portal, or documentation; this profile is an API Evangelist network company
+  record maintained for the portfolio graph.
 url: https://raw.githubusercontent.com/api-evangelist/gate-bioscience/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,30 @@ x-backed-by:
 - a16z
 - gv
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/651ef47f48428a3c2cd4108a/654c13fb532c4467e354569b_1005.svg
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Life Sciences
+- Therapeutics
+- Molecular Biology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.gatebio.com
+- type: Blog
+  url: https://www.gatebio.com/news
+- type: DomainSecurity
+  url: security/gate-bioscience-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
